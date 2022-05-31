@@ -92,4 +92,13 @@ body .card .cancel :active {
 body .card .attribution {
   margin-top: 20px;
 }
+
+@media screen and (max-width: 600px) {
+  body .card {
+    width: 375px;
+  }
+  body .card .img img {
+    width: 375px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
